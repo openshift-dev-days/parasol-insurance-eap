@@ -13,16 +13,33 @@
       "redhat.mta-java",
       "redhat.mta-csharp",
       "redhat.mta-go",
-      "redhat.mta-javascript"
+      "redhat.mta-javascript",
+      "redhat.java"
+    ],
+    "java.jdt.ls.java.home": "/usr/lib/jvm/java-21-openjdk",
+    "java.configuration.runtimes": [
+      {
+        "name": "JavaSE-21",
+        "path": "/usr/lib/jvm/java-21-openjdk",
+        "default": true
+      }
     ],
     "java.server.launchMode": "Standard",
     "java.import.maven.enabled": true,
     "java.import.maven.autoDetect": true,
+    "extensions.autoUpdate": false,
+    "extensions.autoCheckUpdates": false,
     "redhat.telemetry.enabled": true,
     "workbench.colorTheme": "Default Light Modern"
   },
   "extensions": {
     "recommendations": [
+      "redhat.java",
+      "vscjava.vscode-java-debug",
+      "vscjava.vscode-java-test",
+      "vscjava.vscode-maven",
+      "redhat.vscode-quarkus",
+      "redhat.vscode-microprofile",
       "redhat.mta-vscode-extension",
       "redhat.mta-core",
       "redhat.mta-java",
