@@ -1,7 +1,8 @@
 {
   "folders": [
     {
-      "path": "."
+      "name": "parasol-insurance-eap",
+      "path": "/projects/parasol-insurance-eap"
     }
   ],
   "settings": {
@@ -27,10 +28,8 @@
     "java.server.launchMode": "Standard",
     "java.import.maven.enabled": true,
     "java.import.maven.autoDetect": true,
-    "extensions.autoUpdate": false,
-    "extensions.autoCheckUpdates": false,
     "redhat.telemetry.enabled": true,
-    "workbench.colorTheme": "Default Light Modern"
+    "workbench.colorTheme": "Default Dark Modern"
   },
   "extensions": {
     "recommendations": [
