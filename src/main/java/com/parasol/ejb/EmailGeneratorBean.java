@@ -65,7 +65,7 @@ public class EmailGeneratorBean {
         // Initialization logic if needed
     }
 
-    @Scheduled(every = "45s", delay = 5)
+    @Scheduled(every = "45s", delayed = "5s")
     @Transactional
     public void generate() {
         if (sentCount.get() >= MAX_EMAILS) {
