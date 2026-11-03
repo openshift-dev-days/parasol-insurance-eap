@@ -8,16 +8,10 @@
   ],
   "settings": {
     "security.workspace.trust.enabled": false,
-    "security.workspace.trust.extensions": "trusted",
-    "security.workspace.trust.trustedExtensions": [
-      "redhat.mta-vscode-extension",
-      "redhat.mta-core",
-      "redhat.mta-java",
-      "redhat.mta-csharp",
-      "redhat.mta-go",
-      "redhat.mta-javascript",
-      "redhat.java"
-    ],
+    "security.workspace.trust.startupPrompt": "never",
+    "security.workspace.trust.banner": "never",
+    "security.workspace.trust.untrustedFiles": "open",
+    "extensions.disablePublisherTrustPrompt": true,
     "java.jdt.ls.java.home": "/usr/lib/jvm/java-21-openjdk",
     "java.configuration.runtimes": [
       {
